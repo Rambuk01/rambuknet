@@ -1,0 +1,215 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 20px;
+}
+html {
+  overflow-y: scroll;
+}
+body, html {
+  position: relative;
+  width: 100%;
+  height: 95.9%;
+}
+.login-button {
+  margin: 3px 0;
+}
+.login-link {
+  color: rgb(51,102,187);
+}
+.login-link:hover {
+  color: red;
+}
+body {
+  top: 50px;
+  background-color: #f3f3f3ed;
+}
+
+.login-form {
+  border: 1px solid black;
+  height: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.login-form > pre {
+  width: 300px;
+  margin: 0 auto;
+}
+.film-container {
+  display: inline-block;
+  border: 1px solid black;
+  margin: 10px;
+  padding: 4px;
+  background-color: rgba(255, 247,241, 0.75);
+}
+.film-container:hover {
+  background-color: rgba(5, 5, 5, 0.75);
+  color: white;
+}
+nav {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 99;
+  text-align: center;
+}
+
+nav>a {
+  color: #fff;
+  line-height: 50px;
+  padding: 17px 10px;
+}
+
+nav a:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: black;
+  padding: 16px 10px;
+}
+
+.sect {
+  background-size: cover;
+  height: 50%;
+  background-attachment: fixed;
+}
+
+.subSection {
+  background-color: #f9f9f9;
+  height: 50%;
+  width: 100%;
+  padding-bottom: 16px;
+}
+
+.sub-img {
+  float: left;
+  height: 50%;
+  position: relative;
+  top: 25%;
+  left: 25%;
+}
+
+.sub-img>img {
+  max-height: 100%;
+  float: left;
+}
+
+.sub-text {
+  float: left;
+  height: 50%;
+  position: relative;
+  top: 25%;
+  left: 25%;
+  width: 30%;
+  margin-left: 10px;
+  margin-top: 1px;
+  overflow-y: hidden;
+  border-top: 1px solid black;
+}
+
+@media only screen and (max-width: 900px) {
+  .sub-img {
+    left: 5%;
+  }
+  .sub-text {
+    left: 5%;
+  }
+}
+
+@media only screen and (max-width: 670px) {
+  nav {
+    height: 100px;
+  }
+  body {
+    top: 100px;
+  }
+  .sub-img {
+    position: static;
+    display: block;
+    width: 100%;
+  }
+  .sub-img>img {
+    object-fit: contain;
+    width: 100%;
+    padding: 10px;
+  }
+  .sub-text {
+    top: 0;
+    width: 85%;
+    margin-top: 10px;
+    text-align: justify;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.wd-container {
+  display: flex;
+  flex-direction: row;
+  
+}
+.wd-container > div {
+  height: 300px;
+  width: 500px;
+  background-color: lightblue;
+  border: 1px solid black;
+}
+.elevlogin-container {
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/otter4.jpg");
+  background-repeat: no-repeat;
+  background-position: fixed;
+  background-size: cover;
+}
+.filmform {
+  display: flex;
+  justify-content: center;
+}
+@media only screen and (max-width: 900px) {
+  .filmform {
+    display: block;
+  }
+}
+.filmform-container {
+  max-width: 500px;
+  min-width: 350px;
+  border: 1px solid black;
+  /*box-shadow: 10px 10px 8px #888888;*/
+  margin: 8px;
+  padding: 8px;
+  background-color: rgba(255, 247,241, 0.75);
+}
+.radioform {
+}
+.radioform > div {
+  display: block;
+}
+.radioform > div > input {
+  margin: 10px;
+}
+
+/* Science: Webdesign, Python, Raspberry.PI, Unity, Lego Mindstorms */
+
+.img6 {
+  background-image: url("../img/webdesign01.jpg");
+  background-position: 50% -350px;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+.elevlinks a div img {
+  width: 150px;
+  border: 1px solid black;
+  margin: 10px;
+}
+
+.elevlinks div {
+  display: inline;
+}

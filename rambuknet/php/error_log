@@ -1,0 +1,1 @@
+[16-Jun-2018 16:52:25 Europe/Copenhagen] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'rambukne_rambuk'@'localhost' (using password: YES) in /home2/rambukne/public_html/php/functions.php on line 7
